@@ -1,0 +1,22 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap');
+
+:root{
+
+--clr-primary-orange-200: hsl(35, 77%, 62%);
+--clr-primary-red-200: hsl(5, 85%, 63%);
+
+--clr-neutral-off-white: hsl(36, 100%, 99%);
+--clr-neutral-grayish-blue: hsl(233, 8%, 79%);
+--clr-neutral-dark-grayish-blue: hsl(236, 13%, 42%);
+--clr-neutral-very-dark-blue: hsl(240, 100%, 5%);
+
+--fs-default: 15px;
+
+--fw-regular: 400;
+--fw-bold: 700;
+--fw-bolder: 800;
+
+--ff-default: 'Inter', sans-serif;
+
+}
