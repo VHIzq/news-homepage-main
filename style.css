@@ -11,14 +11,32 @@ body{
   place-items: center;
 }
 
-header{
-  width: 100%;
-  position: relative;
+.homepage{
+  max-width: 375px;
 }
 
-header menu{
+.logo{
   position: absolute;
-  width: 200px;
+  top: 20px;
+  left: 20px;
+}
+
+.logo img{
+  width: 40px;
+}
+
+header{
+  height: 100vh;
+  border: 1px solid red;
+  min-width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+menu{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
 menu li{
@@ -28,5 +46,5 @@ menu li{
 menu a{
   text-decoration: none;
   color: var(--clr-neutral-very-dark-blue);
+  font-weight: var(--fw-bold);
 }
-
